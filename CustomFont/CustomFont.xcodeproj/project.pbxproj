@@ -18,6 +18,8 @@
 		E008A25D229E721F00A1064C /* PullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008A25C229E721F00A1064C /* PullViewController.swift */; };
 		E008A25F229E7CEF00A1064C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008A25E229E7CEF00A1064C /* PlayViewController.swift */; };
 		E008A261229F752600A1064C /* PhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008A260229F752600A1064C /* PhotoBrowserViewController.swift */; };
+		E06F3CD2229F829C009BB0C3 /* SwipeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CD1229F829C009BB0C3 /* SwipeaViewController.swift */; };
+		E06F3CD6229FADE3009BB0C3 /* StretchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CD5229FADE3009BB0C3 /* StretchyViewController.swift */; };
 		EC47D712D28B69D3516A2E0E /* Pods_CustomFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5008F37E43087C1D6811EBF /* Pods_CustomFont.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		E008A25C229E721F00A1064C /* PullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullViewController.swift; sourceTree = "<group>"; };
 		E008A25E229E7CEF00A1064C /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		E008A260229F752600A1064C /* PhotoBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		E06F3CD1229F829C009BB0C3 /* SwipeaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeaViewController.swift; sourceTree = "<group>"; };
+		E06F3CD5229FADE3009BB0C3 /* StretchyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				E008A25C229E721F00A1064C /* PullViewController.swift */,
 				E008A25E229E7CEF00A1064C /* PlayViewController.swift */,
 				E008A260229F752600A1064C /* PhotoBrowserViewController.swift */,
+				E06F3CD1229F829C009BB0C3 /* SwipeaViewController.swift */,
+				E06F3CD5229FADE3009BB0C3 /* StretchyViewController.swift */,
 				E008A248229E30F800A1064C /* Main.storyboard */,
 				E008A24B229E30F800A1064C /* Assets.xcassets */,
 				E008A24D229E30F800A1064C /* LaunchScreen.storyboard */,
@@ -229,10 +235,12 @@
 				E008A261229F752600A1064C /* PhotoBrowserViewController.swift in Sources */,
 				E008A25B229E6AED00A1064C /* TextViewController.swift in Sources */,
 				E008A25D229E721F00A1064C /* PullViewController.swift in Sources */,
+				E06F3CD2229F829C009BB0C3 /* SwipeaViewController.swift in Sources */,
 				E008A247229E30F800A1064C /* ViewController.swift in Sources */,
 				E008A257229E34BC00A1064C /* WatchViewController.swift in Sources */,
 				E008A245229E30F800A1064C /* AppDelegate.swift in Sources */,
 				E008A25F229E7CEF00A1064C /* PlayViewController.swift in Sources */,
+				E06F3CD6229FADE3009BB0C3 /* StretchyViewController.swift in Sources */,
 				E008A259229E5A1200A1064C /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
