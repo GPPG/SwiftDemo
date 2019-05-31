@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class TumblrViewController: UIViewController {
 
     var bgimageView: UIImageView!
@@ -21,6 +22,10 @@ class TumblrViewController: UIViewController {
     let dumpingRate:CGFloat = 0.7
 
     
+    var one: OneViewController!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +35,7 @@ class TumblrViewController: UIViewController {
         self.view.addSubview(bgimageView)
         
         
-        
+        one = OneViewController()
         
         
 
@@ -42,12 +47,10 @@ class TumblrViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         
-        
-        
-        
-        
-        
     }
+    
+    
+    
     
 
     

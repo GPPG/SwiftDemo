@@ -22,6 +22,8 @@
 		E06F3CD6229FADE3009BB0C3 /* StretchyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CD5229FADE3009BB0C3 /* StretchyViewController.swift */; };
 		E06F3CD8229FB648009BB0C3 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CD7229FB648009BB0C3 /* EmojiViewController.swift */; };
 		E06F3CDC22A0CC1F009BB0C3 /* TumblrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CDB22A0CC1F009BB0C3 /* TumblrViewController.swift */; };
+		E06F3CDF22A10716009BB0C3 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CDE22A10716009BB0C3 /* OneViewController.swift */; };
+		E06F3CE122A1071D009BB0C3 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06F3CE022A1071D009BB0C3 /* TwoViewController.swift */; };
 		EC47D712D28B69D3516A2E0E /* Pods_CustomFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5008F37E43087C1D6811EBF /* Pods_CustomFont.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		E06F3CD5229FADE3009BB0C3 /* StretchyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyViewController.swift; sourceTree = "<group>"; };
 		E06F3CD7229FB648009BB0C3 /* EmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 		E06F3CDB22A0CC1F009BB0C3 /* TumblrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrViewController.swift; sourceTree = "<group>"; };
+		E06F3CDE22A10716009BB0C3 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		E06F3CE022A1071D009BB0C3 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		E008A243229E30F800A1064C /* CustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				E06F3CDD22A106E6009BB0C3 /* 闭包 */,
 				E008A244229E30F800A1064C /* AppDelegate.swift */,
 				E008A246229E30F800A1064C /* ViewController.swift */,
 				E008A256229E34BC00A1064C /* WatchViewController.swift */,
@@ -116,6 +121,15 @@
 				E008A250229E30F800A1064C /* Info.plist */,
 			);
 			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		E06F3CDD22A106E6009BB0C3 /* 闭包 */ = {
+			isa = PBXGroup;
+			children = (
+				E06F3CDE22A10716009BB0C3 /* OneViewController.swift */,
+				E06F3CE022A1071D009BB0C3 /* TwoViewController.swift */,
+			);
+			path = "闭包";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +262,8 @@
 				E008A257229E34BC00A1064C /* WatchViewController.swift in Sources */,
 				E008A245229E30F800A1064C /* AppDelegate.swift in Sources */,
 				E008A25F229E7CEF00A1064C /* PlayViewController.swift in Sources */,
+				E06F3CDF22A10716009BB0C3 /* OneViewController.swift in Sources */,
+				E06F3CE122A1071D009BB0C3 /* TwoViewController.swift in Sources */,
 				E06F3CD6229FADE3009BB0C3 /* StretchyViewController.swift in Sources */,
 				E008A259229E5A1200A1064C /* LocationViewController.swift in Sources */,
 			);
