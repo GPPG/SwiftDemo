@@ -38,7 +38,10 @@ class StretchyViewController: UIViewController,UITableViewDataSource,UITableView
         bannerImageView.image = UIImage(named: "phoneBg")
         self.view.addSubview(bannerImageView)
 
+        
     }
+    
+    
     
     
     override func viewWillAppear(_ animated: Bool) {
@@ -54,7 +57,6 @@ class StretchyViewController: UIViewController,UITableViewDataSource,UITableView
                 cell.frame.origin.y = 0
             }, completion: nil)
         }
-        
         
         
         
